@@ -1,0 +1,13 @@
+.header{
+    background-color:green;
+}
+
+.hidden{
+    display: none;
+}
+
+.active {
+    background-color: yellow; /* Цвет подсветки */
+    transform: scale(1.1);    /* Небольшое увеличение */
+    transition: transform 0.1s, background-color 0.1s;
+}
