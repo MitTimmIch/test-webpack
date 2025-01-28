@@ -1,7 +1,7 @@
 import { keyBoardDiv, numBoardDiv } from "./create-elements.js";
 
 
-export const lvlBtns = document.querySelectorAll('.level-btn, .easy, .medium, .hard');
+export const lvlBtns = document.querySelectorAll('.level-btn, easy, medium, hard');
 console.log(lvlBtns);
 
 export const currentlvl = {
